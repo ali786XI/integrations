@@ -14,5 +14,3 @@ services:
       retries: 40
     ports:
       - 9157
-    volumes:
-      - ${SERVICE_LOGS_DIR}:/var/mqm/errors:rw
